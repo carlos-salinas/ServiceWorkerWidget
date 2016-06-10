@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="ServiceWorkerWidget.widget.ServiceWorkerWidget" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>ServiceWorkerWidget</name>
+    <description>This is a PWA Service Worker Specification Widget</description>
+    <icon />
+
+    <properties>
+        <property key="messageString" type="string" required="true" defaultValue="">
+            <caption>ApplicationServerKey</caption>
+            <category>Configuration</category>
+            <description>This the API Key of Google Cloud Messaging for your project</description>
+        </property>
+    </properties>
+</widget>
+
